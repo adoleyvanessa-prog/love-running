@@ -20,6 +20,7 @@ header {
 /* Main content area */
 main {
     background-color: blue;
+    /* main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 /* Footer */
