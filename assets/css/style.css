@@ -101,7 +101,16 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+ #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+ }
+/* push main down to accommodate header */
+ main {
+    margin-top: 79px;
 
+ }
     #menu {
         display: flex;
     }
