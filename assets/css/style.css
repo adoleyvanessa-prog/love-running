@@ -98,6 +98,9 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+    .nav-toggle-label {
+        display: none;
+    }
 
     #menu {
         display: flex;
