@@ -78,7 +78,7 @@ nav {
 }
 /* Main content area */
 main {
-    background-color: blue;
+    background-color: rgb(255, 226, 226);
     /* main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -86,7 +86,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 /* media query for tablets and larger 768px and up */
 @media screen and (min-width: 768px) {
