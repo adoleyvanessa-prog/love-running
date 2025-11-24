@@ -203,6 +203,13 @@ hr {
     /* override heading colors set in style */
     color: #fafafa
 }
+/* media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 /* media query for tablets and larger 768px and up */
 @media screen and (min-width: 768px) {
     /* header */
@@ -249,6 +256,10 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+    /* gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* 992px and up media */
@@ -257,7 +268,9 @@ hr {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-
+/* gallery */
+#photos {
+    column-count: 4;
 }
 @media screen and (min-width: 1200px) {    
     /* Reasons section */
