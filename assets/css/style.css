@@ -168,6 +168,28 @@ hr {
     color: #3a3a3a;
 }
 
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* wont wrap on screens less than 400px div will expand to fill available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* creates grid meetup times of background image split*/
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* override heading colors set in style */
+    color: #fafafa
+}
 /* media query for tablets and larger 768px and up */
 @media screen and (min-width: 768px) {
     /* header */
@@ -222,7 +244,7 @@ hr {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-    
+
 }
 @media screen and (min-width: 1200px) {    
     /* Reasons section */
